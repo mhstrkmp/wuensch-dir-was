@@ -11,7 +11,7 @@ const WishListForm = () => {
 
   const dummy = {
     title: "rudolfs's List",
-    items: ['Koks', 'Socken'],
+    items: ['Koks', 'Glühwein', 'Schnappspralinen', 'Socken'],
   };
 
   function handleChange(event) {
@@ -20,7 +20,7 @@ const WishListForm = () => {
 
   function handleSubmit(event) {
     // alert(`A name was submitted: ${value}`);
-    addList(dummy);
+    addList(value);
     event.preventDefault();
   }
   return (
