@@ -19,6 +19,16 @@
       "id": 4,
       "title": "Opa's List",
       "items": ["Koks"]
+    },
+    {
+      "id": 5,
+      "title": "Whatever's List",
+      "items": ["Socken", "Koks"]
+    },
+    {
+      "id": 6,
+      "title": "Whoever's List",
+      "items": ["Socken", "Koks"]
     }
   ]
 }
