@@ -1,14 +1,19 @@
 {
   "lists": [
     {
-      "id": 6,
-      "title": "Whoever's List",
-      "items": ["Socken", "Koks"]
-    },
-    {
       "title": "whoever's List",
       "items": ["Koks", "Socken"],
       "id": 9
+    },
+    {
+      "title": "testever's List",
+      "items": ["Koks", "Socken"],
+      "id": 10
+    },
+    {
+      "title": "omg's List",
+      "items": ["Koks", "Socken"],
+      "id": 11
     }
   ]
 }

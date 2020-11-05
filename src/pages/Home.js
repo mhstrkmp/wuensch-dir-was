@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { getLists } from '../api/lists';
 import FloatingActionButton from '../components/FloatingActionButton';
 import addPath from '../assets/add.svg';
+import WishListForm from '../components/Form';
 
 const Header = styled.header`
   text-align: center;
@@ -35,6 +36,7 @@ const Home = () => {
             </Link>
           ))}
         </List>
+        <WishListForm />
         <Link to="/add">
           <FloatingActionButton>
             <img src={addPath} alt="Link to add page" />
