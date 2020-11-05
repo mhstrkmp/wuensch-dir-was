@@ -18,3 +18,15 @@ export async function deleteListById(id) {
   const list = await response.json();
   return list;
 }
+
+export async function addList(listName) {
+  const response = await fetch(`http://localhost:5000/lists/`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json;charset=utf-8',
+    },
+    body: JSON.stringify(listName),
+  });
+  const list = await response.json();
+  return list;
+}
