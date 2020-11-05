@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "concurrently": "^5.3.0",
     "json-server": "^0.16.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "api": "json-server --watch db.json --port 5000",
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"npm run api\" ",
     "build:app": "react-scripts build",
     "build:storybook": "build-storybook -s public --no-dll -o build/storybook",
     "build": "npm run build:app && npm run build:storybook",
