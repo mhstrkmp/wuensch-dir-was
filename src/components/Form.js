@@ -20,7 +20,7 @@ const WishListForm = () => {
 
   function handleSubmit(event) {
     // alert(`A name was submitted: ${value}`);
-    addList(value);
+    addList(dummy);
     event.preventDefault();
   }
   return (
